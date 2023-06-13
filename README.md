@@ -8,3 +8,7 @@ it was at the responsive point ..... it wasnot that easy bec i made it from scra
 How would you use the useState or useEffect React hooks in a scenario where you need to manage a dynamic state on this page?
 
 In a scenario where dynamic state needs to be managed on either the Navbar or Card component, the useState and useEffect hooks could be used. For example, if a user's search query in the Navbar component needs to be saved and used to filter content, the useState hook could be used to manage the search query state, with the useEffect hook used to update the content based on the search query. In the Card component, if a user's button click needs to trigger a state change, the useState hook could be used to manage the state change, with the useEffect hook used to perform an action (such as displaying a success message) based on the state change. Overall, the useState and useEffect hooks are powerful tools for managing dynamic state in React components.
+
+
+Here is the live demo
+https://64887e592c4e150c7cda062d--mellow-sunflower-8258c2.netlify.app
